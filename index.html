@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lüks Oto Galeri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-car"></i>
+            <span>E&G OTO</span>
+        </div>
+        <ul>
+            <li><a href="#anasayfa"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+            <li><a href="#araclar"><i class="fas fa-car-side"></i> Araçlarımız</a></li>
+            <li><a href="#hizmetler"><i class="fas fa-tools"></i> Hizmetler</a></li>
+            <li><a href="#hakkimizda"><i class="fas fa-info-circle"></i> Hakkımızda</a></li>
+            <li><a href="#iletisim"><i class="fas fa-phone"></i> İletişim</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="anasayfa" class="hero">
+        <div class="hero-content">
+            <h1>E&G Oto Galeri</h1>
+            <p>Premium araçlar, uygun fiyatlar</p>
+            <a href="#araclar" class="btn">Araçları İncele</a>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section class="ozellikler">
+        <div class="ozellik">
+            <i class="fas fa-check-circle"></i>
+            <h3>Güvenilir</h3>
+            <p>20 Yıllık Tecrübe</p>
+        </div>
+        <div class="ozellik">
+            <i class="fas fa-star"></i>
+            <h3>Premium</h3>
+            <p>Kaliteli Araçlar</p>
+        </div>
+        <div class="ozellik">
+            <i class="fas fa-handshake"></i>
+            <h3>Dürüst</h3>
+            <p>Şeffaf Alışveriş</p>
+        </div>
+    </section>
+
+    <section id="araclar" class="araclar">
+        <h2>Araç Galerimiz</h2>
+        <div class="filtreler">
+            <button class="aktif">Tümü</button>
+            <button class="suv">SUV</button>
+            <button class="sedan">Sedan</button>
+            <button class="sport">Sport</button>
+        </div>
+        <div class="arac-grid">
+            <div class="arac-kart">
+                <div class="etiket">YENİ</div>
+                <img src="mrc.jpg" alt="Mercedes">
+                <div class="arac-bilgi">
+                    <h3>Mercedes-Benz C200d AMG</h3>
+                    <div class="ozellikler">
+                        <span><i class="fas fa-calendar"></i> 2023</span>
+                        <span><i class="fas fa-tachometer-alt"></i> 15.000 KM</span>
+                        <span><i class="fas fa-gas-pump"></i> Dizel</span>
+                    </div>
+                    <p class="fiyat">2.250.000 TL</p>
+                    <a href="https://fiyat.mercedes-benz.com.tr/model/c-serisi-sedan/fiyat/2024" class="detay-btn">Detayları Gör</a>
+                </div>
+            </div>
+            <div class="arac-kart">
+                <img src="bmw.jpg" alt="BMW">
+                <div class="arac-bilgi">
+                    <h3>BMW 520i Executive</h3>
+                    <div class="ozellikler">
+                        <span><i class="fas fa-calendar"></i> 2023</span>
+                        <span><i class="fas fa-tachometer-alt"></i> 0 KM</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzin</span>
+                    </div>
+                    <p class="fiyat">2.850.000 TL</p>
+                    <a href="https://www.bmw.com.tr/tr/all-models.html?detail=5_Yeni-BMW-5-Serisi-Sedan" class="detay-btn">Detayları Gör</a>
+                </div>
+            </div>
+            <div class="arac-kart">
+                <div class="etiket">FIRSAT</div>
+                <img src="audi.jpg" alt="Audi">
+                <div class="arac-bilgi">
+                    <h3>Audi Q8 50 TDI</h3>
+                    <div class="ozellikler">
+                        <span><i class="fas fa-calendar"></i> 2022</span>
+                        <span><i class="fas fa-tachometer-alt"></i> 25.000 KM</span>
+                        <span><i class="fas fa-gas-pump"></i> Dizel</span>
+                    </div>
+                    <p class="fiyat">3.150.000 TL</p>
+                    <a href="https://www.audi.com.tr/tr/web/tr/modeller/q8/q8-suv.html?csref=sea:emc:q8:search_alwayson:c:google:ads.google:mt~p&gad_source=1&gclid=Cj0KCQiAire5BhCNARIsAM53K1jRIpWE3fXGGJjNd-JHSPT3hCBc8cMnNHDoWfDP-qXuS-1YRc4hrGsaAuYCEALw_wcB" class="detay-btn">Detayları Gör</a>
+                </div>
+            </div>
+            <div class="arac-kart">
+                <img src="por.jpg" alt="Porsche">
+                <div class="arac-bilgi">
+                    <h3>Porsche Cayenne</h3>
+                    <div class="ozellikler">
+                        <span><i class="fas fa-calendar"></i> 2023</span>
+                        <span><i class="fas fa-tachometer-alt"></i> 5.000 KM</span>
+                        <span><i class="fas fa-gas-pump"></i> Benzin</span>
+                    </div>
+                    <p class="fiyat">4.750.000 TL</p>
+                    <a href="https://www.porsche.com.tr/modeller/yeni-cayenne" class="detay-btn">Detayları Gör</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hizmetler" class="hizmetler">
+        <h2>Hizmetlerimiz</h2>
+        <div class="hizmet-grid">
+            <div class="hizmet-kart">
+                <i class="fas fa-exchange-alt"></i>
+                <h3>Takas</h3>
+                <p>Aracınızı değerinde değerlendiriyoruz</p>
+            </div>
+            <div class="hizmet-kart">
+                <i class="fas fa-credit-card"></i>
+                <h3>Kredi</h3>
+                <p>Uygun faiz oranlarıyla kredi imkanı</p>
+            </div>
+            <div class="hizmet-kart">
+                <i class="fas fa-clipboard-check"></i>
+                <h3>Ekspertiz</h3>
+                <p>Detaylı araç kontrol ve raporlama</p>
+            </div>
+            <div class="hizmet-kart">
+                <i class="fas fa-truck"></i>
+                <h3>Nakliye</h3>
+                <p>Türkiye'nin her yerine teslimat</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hakkimizda" class="hakkimizda">
+        <div class="hakkimizda-content">
+            <h2>Hakkımızda</h2>
+            <p>20 yıllık tecrübemizle Türkiye'nin en güvenilir oto galerisi olmaktan gurur duyuyoruz. Premium segment araçlarımızla müşterilerimize en iyi hizmeti sunmaya devam ediyoruz.</p>
+            <div class="istatistikler">
+                <div class="istatistik">
+                    <span class="sayi">1500+</span>
+                    <span class="baslik">Mutlu Müşteri</span>
+                </div>
+                <div class="istatistik">
+                    <span class="sayi">500+</span>
+                    <span class="baslik">Araç Satışı</span>
+                </div>
+                <div class="istatistik">
+                    <span class="sayi">20</span>
+                    <span class="baslik">Yıllık Tecrübe</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="iletisim">
+        <h2>İletişim</h2>
+        <div class="iletisim-container">
+            <div class="iletisim-bilgi">
+                <h3>Bize Ulaşın</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Atatürk Caddesi No:123 İstanbul</p>
+                <p><i class="fas fa-phone"></i> 0212 345 67 89</p>
+                <p><i class="fas fa-envelope"></i> info@egoto.com</p>
+                <div class="sosyal-medya">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <form class="iletisim-form">
+                <input type="text" placeholder="Adınız">
+                <input type="email" placeholder="E-posta">
+                <input type="tel" placeholder="Telefon">
+                <textarea placeholder="Mesajınız"></textarea>
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-car"></i>
+                <span>E&G OTO</span>
+            </div>
+            <div class="footer-links">
+                <a href="#anasayfa">Ana Sayfa</a>
+                <a href="#araclar">Araçlarımız</a>
+                <a href="#hizmetler">Hizmetler</a>
+                <a href="#hakkimizda">Hakkımızda</a>
+                <a href="#iletisim">İletişim</a>
+            </div>
+            <p class="copyright">&copy; 2024 E&G Oto Galeri - Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
